@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.BlueprintCBRTest" time="3.008" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sagerlaptop\rhds_workspace\fip01\target\test-classes;C:\Users\sagerlaptop\rhds_workspace\fip01\target\classes;c:\mavenRepository\org\apache\camel\camel-core\2.22.1\camel-core-2.22.1.jar;c:\mavenRepository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;c:\mavenRepository\org\apache\camel\camel-blueprint\2.22.1\camel-blueprint-2.22.1.jar;c:\mavenRepository\org\apache\camel\camel-core-xml\2.22.1\camel-core-xml-2.22.1.jar;c:\mavenRepository\org\apache\camel\camel-core-osgi\2.22.1\camel-core-osgi-2.22.1.jar;c:\mavenRepository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;c:\mavenRepository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;c:\mavenRepository\log4j\log4j\1.2.17\log4j-1.2.17.jar;c:\mavenRepository\org\apache\camel\camel-test-blueprint\2.22.1\camel-test-blueprint-2.22.1.jar;c:\mavenRepository\org\apache\camel\camel-test\2.22.1\camel-test-2.22.1.jar;c:\mavenRepository\org\apache\aries\proxy\org.apache.aries.proxy\1.1.1\org.apache.aries.proxy-1.1.1.jar;c:\mavenRepository\org\apache\aries\blueprint\org.apache.aries.blueprint.api\1.0.1\org.apache.aries.blueprint.api-1.0.1.jar;c:\mavenRepository\org\apache\aries\blueprint\org.apache.aries.blueprint.core\1.10.0\org.apache.aries.blueprint.core-1.10.0.jar;c:\mavenRepository\org\apache\aries\quiesce\org.apache.aries.quiesce.api\1.0.0\org.apache.aries.quiesce.api-1.0.0.jar;c:\mavenRepository\org\apache\aries\proxy\org.apache.aries.proxy.api\1.1.0\org.apache.aries.proxy.api-1.1.0.jar;c:\mavenRepository\org\apache\aries\blueprint\org.apache.aries.blueprint.cm\1.3.0\org.apache.aries.blueprint.cm-1.3.0.jar;c:\mavenRepository\org\apache\aries\org.apache.aries.util\1.1.3\org.apache.aries.util-1.1.3.jar;c:\mavenRepository\org\apache\felix\org.apache.felix.connect\0.2.0\org.apache.felix.connect-0.2.0.jar;c:\mavenRepository\org\ops4j\pax\swissbox\pax-swissbox-tinybundles\1.3.2\pax-swissbox-tinybundles-1.3.2.jar;c:\mavenRepository\org\ops4j\base\ops4j-base-lang\1.2.2\ops4j-base-lang-1.2.2.jar;c:\mavenRepository\org\ops4j\base\ops4j-base-io\1.2.2\ops4j-base-io-1.2.2.jar;c:\mavenRepository\org\ops4j\base\ops4j-base-monitors\1.2.2\ops4j-base-monitors-1.2.2.jar;c:\mavenRepository\org\ops4j\base\ops4j-base-store\1.2.2\ops4j-base-store-1.2.2.jar;c:\mavenRepository\org\ops4j\pax\swissbox\pax-swissbox-bnd\1.3.2\pax-swissbox-bnd-1.3.2.jar;c:\mavenRepository\biz\aQute\bndlib\0.0.357\bndlib-0.0.357.jar;c:\mavenRepository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;c:\mavenRepository\junit\junit\4.12\junit-4.12.jar;c:\mavenRepository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;c:\mavenRepository\org\apache\felix\org.apache.felix.configadmin\1.8.8\org.apache.felix.configadmin-1.8.8.jar;c:\mavenRepository\com\sun\xml\bind\jaxb-impl\2.3.1\jaxb-impl-2.3.1.jar;c:\mavenRepository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;c:\mavenRepository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\SAGERL~1\AppData\Local\Temp\surefire16314227654683392539\surefirebooter4143150804288097507.jar C:\Users\sagerlaptop\AppData\Local\Temp\surefire16314227654683392539 2018-11-08T11-40-11_308-jvmRun1 surefire4761763051141839071tmp surefire_02748199672850690828tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\sagerlaptop\rhds_workspace\fip01\target\test-classes;C:\Users\sagerlaptop\rhds_workspace\fip01\target\classes;c:\mavenRepository\org\apache\camel\camel-core\2.22.1\camel-core-2.22.1.jar;c:\mavenRepository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;c:\mavenRepository\org\apache\camel\camel-blueprint\2.22.1\camel-blueprint-2.22.1.jar;c:\mavenRepository\org\apache\camel\camel-core-xml\2.22.1\camel-core-xml-2.22.1.jar;c:\mavenRepository\org\apache\camel\camel-core-osgi\2.22.1\camel-core-osgi-2.22.1.jar;c:\mavenRepository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;c:\mavenRepository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;c:\mavenRepository\log4j\log4j\1.2.17\log4j-1.2.17.jar;c:\mavenRepository\org\apache\camel\camel-test-blueprint\2.22.1\camel-test-blueprint-2.22.1.jar;c:\mavenRepository\org\apache\camel\camel-test\2.22.1\camel-test-2.22.1.jar;c:\mavenRepository\org\apache\aries\proxy\org.apache.aries.proxy\1.1.1\org.apache.aries.proxy-1.1.1.jar;c:\mavenRepository\org\apache\aries\blueprint\org.apache.aries.blueprint.api\1.0.1\org.apache.aries.blueprint.api-1.0.1.jar;c:\mavenRepository\org\apache\aries\blueprint\org.apache.aries.blueprint.core\1.10.0\org.apache.aries.blueprint.core-1.10.0.jar;c:\mavenRepository\org\apache\aries\quiesce\org.apache.aries.quiesce.api\1.0.0\org.apache.aries.quiesce.api-1.0.0.jar;c:\mavenRepository\org\apache\aries\proxy\org.apache.aries.proxy.api\1.1.0\org.apache.aries.proxy.api-1.1.0.jar;c:\mavenRepository\org\apache\aries\blueprint\org.apache.aries.blueprint.cm\1.3.0\org.apache.aries.blueprint.cm-1.3.0.jar;c:\mavenRepository\org\apache\aries\org.apache.aries.util\1.1.3\org.apache.aries.util-1.1.3.jar;c:\mavenRepository\org\apache\felix\org.apache.felix.connect\0.2.0\org.apache.felix.connect-0.2.0.jar;c:\mavenRepository\org\ops4j\pax\swissbox\pax-swissbox-tinybundles\1.3.2\pax-swissbox-tinybundles-1.3.2.jar;c:\mavenRepository\org\ops4j\base\ops4j-base-lang\1.2.2\ops4j-base-lang-1.2.2.jar;c:\mavenRepository\org\ops4j\base\ops4j-base-io\1.2.2\ops4j-base-io-1.2.2.jar;c:\mavenRepository\org\ops4j\base\ops4j-base-monitors\1.2.2\ops4j-base-monitors-1.2.2.jar;c:\mavenRepository\org\ops4j\base\ops4j-base-store\1.2.2\ops4j-base-store-1.2.2.jar;c:\mavenRepository\org\ops4j\pax\swissbox\pax-swissbox-bnd\1.3.2\pax-swissbox-bnd-1.3.2.jar;c:\mavenRepository\biz\aQute\bndlib\0.0.357\bndlib-0.0.357.jar;c:\mavenRepository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;c:\mavenRepository\junit\junit\4.12\junit-4.12.jar;c:\mavenRepository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;c:\mavenRepository\org\apache\felix\org.apache.felix.configadmin\1.8.8\org.apache.felix.configadmin-1.8.8.jar;c:\mavenRepository\com\sun\xml\bind\jaxb-impl\2.3.1\jaxb-impl-2.3.1.jar;c:\mavenRepository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;c:\mavenRepository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sagerlaptop"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-07-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-10.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sagerlaptop\rhds_workspace\fip01"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SAGERL~1\AppData\Local\Temp\surefire16314227654683392539\surefirebooter4143150804288097507.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="10.0.2+13"/>
+    <property name="user.name" value="sagerlaptop"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="localRepository" value="c:\mavenRepository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SAGERL~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="10.0.2"/>
+    <property name="user.dir" value="C:\Users\sagerlaptop\rhds_workspace\fip01"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-10.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Python35\Scripts\;C:\Program Files\Python35\;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\nodejs\;C:\Program Files (x86)\WinSCP\;C:\Program Files (x86)\PuTTY\;C:\apache-servicemix-7.0.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\sagerlaptop\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\apache-maven-3.3.9\bin;C:\nexus32001win64\nexus-3.2.0-01\bin;C:\Users\sagerlaptop\AppData\Roaming\Python\Python35\Scripts;C:\Users\sagerlaptop\AppData\Roaming\npm;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="10.0.2+13"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="54.0"/>
+  </properties>
+  <testcase name="testCamelRoute" classname="com.mycompany.BlueprintCBRTest" time="2.904"/>
+</testsuite>
